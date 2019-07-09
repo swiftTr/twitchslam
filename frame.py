@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from scipy.spatial import cKDTree
 from constants import RANSAC_RESIDUAL_THRES, RANSAC_MAX_TRIALS
-np.set_printoptions(suppress=True)
+np.set_printoptions(supress=True)
 
 from skimage.measure import ransac
 from helpers import add_ones, poseRt, fundamentalToRt, normalize, EssentialMatrixTransform, myjet
